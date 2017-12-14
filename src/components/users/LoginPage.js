@@ -11,8 +11,8 @@ class LoginPage extends Component {
         super(props)
         this.state = {
             user: {
-                email: 'test@test.com',
-                password: '123456'
+                email: '',
+                password: ''
             },
             error: ''
         }
